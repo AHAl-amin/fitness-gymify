@@ -4,7 +4,7 @@ import Banner from '../Banner/Banner'
 
 function Home() {
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className='max-w-6xl mx-auto'>
 
         <Navber></Navber>
         <Banner></Banner>
