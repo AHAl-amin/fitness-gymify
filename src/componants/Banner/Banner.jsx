@@ -3,8 +3,8 @@ import React from 'react'
 function Banner() {
   return (
     <div className='max-w-6xl text-center '>
-      <div>
-        <h1 className='font-bold text-[90px]'>Your Fitness Journey     </h1>
+      <div className=''>
+        <h1 className='  '><span className='font-bold text-[90px] border-l-4 border-black rounded-full pl-5'>Your Fitness Journey</span>     </h1>
       </div>
       <div className='flex justify-center gap-3 items-center '>
         <svg className='bg-orange-300 rounded-full p-1 pr-24  ' width="190" height="96"  viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,10 @@ function Banner() {
           </defs>
         </svg>
         <img className='' src="https://i.ibb.co.com/60hvPZRS/bannerimg-01.png" alt="" />
-        <h1 className='font-bold text-[90px]'>Starts Here</h1>
+        <h1 className='font-bold text-[90px]'><span className='border-r-4 border-black rounded-full pr-7'>Starts Here</span></h1>
+      </div>
+      <div className='text-center  '>
+        <button className='bg-orange-300 px-6 py-2 rounded-full' >Explore Now</button>
       </div>
 
     </div>

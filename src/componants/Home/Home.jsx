@@ -1,6 +1,7 @@
 import React from 'react'
 import Navber from '../Navber/Navber'
 import Banner from '../Banner/Banner'
+import Banner02 from '../Banner/Banner02'
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
 
         <Navber></Navber>
         <Banner></Banner>
+        <Banner02></Banner02>
 
     </div>
   )
